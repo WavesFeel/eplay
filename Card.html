@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подробная информация</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/Card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">logo</div>
+            <nav class="nav">
+                <a href="Home.html" class="nav_link">Главная</a>
+                <a href="Favorites.html" class="nav_link">Избранное</a>
+                <a href="Menu.html" class="nav_link">Меню</a>
+                <a href="#" class="nav_link">Игры</a>
+            </nav>
+        </div>
+        <div class="main">
+            <div id="backButtonContainer" class="back-button-container">
+                <!-- Кнопка "Назад" будет добавлена с помощью JavaScript -->
+            </div>
+            <div class="card">
+                <img class="card_img" src="" alt="">
+                <div class="card_left">
+                    <p class="card_title"></p>
+                    <p class="card_price"></p>
+                    <p class="card_desc"></p>
+                    <div class="btns">
+                        <button class="btn wait_time"></button>
+                        <button class="btn">Добавить в избранное</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_inner">
+                <div class="logo">logo</div>
+                <div class="social">
+                    <div class="social_icon"><img src="assets/images/tgsvg.svg" alt=""></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // JavaScript код для создания кнопки "Назад" на странице
+            const backButtonContainer = document.getElementById('backButtonContainer');
+            const backButton = document.createElement('button');
+            backButton.textContent = 'Назад';
+            backButton.classList.add('btn');
+            backButton.onclick = function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const restaurantId = urlParams.get('restaurantId');
+                if (restaurantId) {
+                    window.location.href = `Menu.html?restaurantId=${restaurantId}`;
+                } else {
+                    window.location.href = 'Menu.html';
+                }
+            };
+            backButtonContainer.appendChild(backButton);
+        });
+    </script>
+
+</body>
+</html>

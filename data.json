@@ -1,0 +1,174 @@
+{
+    "restaurants": [
+        {
+            "name": "Уютный Домик",
+            "desc": "Уютный Домик предлагает гостям уютную и домашнюю атмосферу",
+            "id": 1,
+            "image": "assets/images/restaurant1.jpg",
+            "menu": {
+                "firstDishes": [
+                    {
+                        "id": 1,
+                        "title": "Суп",
+                        "image": "assets/images/food1.jpg",
+                        "description": "Вкусный суп.",
+                        "price": "300 тг",
+                        "waitTime": "10 минут"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Борщ",
+                        "image": "assets/images/Borscht.jpg",
+                        "description": "Традиционный борщ.",
+                        "price": "350 тг",
+                        "waitTime": "15 минут"
+                    }
+                ],
+                "secondDishes": [
+                    {
+                        "id": 3,
+                        "title": "Котлеты",
+                        "image": "assets/images/food24.jpg",
+                        "description": "Вкусные котлеты.",
+                        "price": "400 тг",
+                        "waitTime": "20 минут"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Пюре",
+                        "image": "assets/images/Puree.jpg",
+                        "description": "Картофельное пюре.",
+                        "price": "200 тг",
+                        "waitTime": "10 минут"
+                    }
+                ],
+                "salads": [
+                    {
+                        "id": 5,
+                        "title": "Цезарь",
+                        "image": "assets/images/Caesar.jpg",
+                        "description": "Классический цезарь с курицей.",
+                        "price": "500 тг",
+                        "waitTime": "15 минут"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Греческий",
+                        "image": "assets/images/Greeksalad.jpg",
+                        "description": "Свежий греческий салат.",
+                        "price": "450 тг",
+                        "waitTime": "12 минут"
+                    }
+                ],
+                "desserts": [
+                    {
+                        "id": 7,
+                        "title": "Тирамису",
+                        "image": "assets/images/Tiramisu.jpg",
+                        "description": "Итальянский тирамису.",
+                        "price": "600 тг",
+                        "waitTime": "18 минут"
+                    },
+                    {
+                        "id": 8,
+                        "title": "Чизкейк",
+                        "image": "assets/images/Cheesecake.jpg",
+                        "description": "Классический чизкейк.",
+                        "price": "550 тг",
+                        "waitTime": "16 минут"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Итальянский Стол",
+            "desc": "Это уникальное место, где каждый гость может насладиться атмосферой Италии и отведать самые изысканные блюда итальянской кухни",
+            "id": 2,
+            "image": "assets/images/restaurant2.jpg",
+            "menu": {
+                "firstDishes": [
+                    {
+                        "id": 9,
+                        "title": "Рис с овощами",
+                        "image": "assets/images/Rice_with_vegetables.jpg",
+                        "description": "Ароматный рис с овощами.",
+                        "price": "350 тг",
+                        "waitTime": "12 минут"
+                    },
+                    {
+                        "id": 10,
+                        "title": "Спагетти карбонара",
+                        "image": "assets/images/Spaghetti_carbonara.jpg",
+                        "description": "Итальянские спагетти карбонара.",
+                        "price": "400 тг",
+                        "waitTime": "15 минут"
+                    }
+                ],
+                "secondDishes": [
+                    {
+                        "id": 11,
+                        "title": "Стейк",
+                        "image": "assets/images/Steak.jpg",
+                        "description": "Сочный стейк с гарниром.",
+                        "price": "700 тг",
+                        "waitTime": "25 минут"
+                    }
+                ],
+                "desserts": [
+                    {
+                        "id": 12,
+                        "title": "Шоколадный фонтан",
+                        "image": "assets/images/Chocolate_fountain.jpg",
+                        "description": "Шоколадный фондан с ванильным мороженым.",
+                        "price": "650 тг",
+                        "waitTime": "22 минуты"
+                    },
+                    {
+                        "id": 13,
+                        "title": "Яблочный штрудель",
+                        "image": "assets/images/Apple_strudel.jpg",
+                        "description": "Яблочный штрудель с корицей и орехами.",
+                        "price": "500 тг",
+                        "waitTime": "20 минут"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Морской Бриз",
+            "desc": "приглашает гостей на уникальное кулинарное путешествие по миру морепродуктов и деликатесов из моря",
+            "id": 3,
+            "image": "assets/images/restaurant3.jpg",
+            "menu": {
+                "secondDishes": [
+                    {
+                        "id": 14,
+                        "title": "Паста с морепродуктами",
+                        "image": "assets/images/Pasta_with_seafood.jpg.jpg",
+                        "description": "Паста с морепродуктами и соусом.",
+                        "price": "600 тг",
+                        "waitTime": "20 минут"
+                    }
+                ],
+                "salads": [
+                    {
+                        "id": 15,
+                        "title": "Салат с кальмарами",
+                        "image": "assets/images/Salad_with_squid.jpg",
+                        "description": "Салат с кальмарами и овощами.",
+                        "price": "550 тг",
+                        "waitTime": "18 минут"
+                    },
+                    {
+                        "id": 16,
+                        "title": "Морской салат",
+                        "image": "assets/images/Salad_with_seafood_and herbs.jpg",
+                        "description": "Салат с морепродуктами и зеленью.",
+                        "price": "600 тг",
+                        "waitTime": "20 минут"
+                    }
+                ]
+            }
+        }
+    ]
+}

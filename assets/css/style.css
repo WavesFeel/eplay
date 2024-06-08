@@ -1,0 +1,148 @@
+    body {
+        background-color: #17161A;
+        color: #fff;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .bg {
+        max-width: 100%;
+        width: 100%;
+        background-image: url(../images/bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 180px 0;
+        margin-bottom: 70px;
+
+    }
+
+    .container {
+        max-width: 1580px;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-weight: 700;
+        color: #fff;
+        font-size: 140px;
+        margin-bottom: 14px;
+    }
+
+    .title span {
+        color: #DEB754;
+    }
+
+    .subtitle {
+        font-size: 34px;
+        font-family: 'GilroyRegular';
+        margin-bottom: 50px;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+    }
+
+    .content_text {
+        font-family: 'GilroyBold';
+        font-size: 24px;
+        margin-right: 24px;
+    }
+
+    .content_btns {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .content_frame {
+        font-family: 'GilroySemibold';
+        font-size: 24px;
+        background: #19192043;
+        padding: 24px 20px;
+        backdrop-filter: blur(16px);
+        border: solid 1px #ffffff89;
+        border-radius: 7px;
+        transition: all .2s;
+    }
+
+    .all_services {
+        margin-bottom: 200px;
+    }
+
+    .all_services_title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #DEB754;
+        margin-bottom: 35px;
+        /* Отступ для заголовка */
+        position: relative;
+        /* Добавляем относительное позиционирование */
+        min-height: 1em;
+        /* Минимальная высота для заголовка, чтобы псевдоэлемент был видимым */
+    }
+
+    .all_services_title::after {
+        content: "";
+        /* Добавляем контент псевдоэлемента */
+        position: absolute;
+        /* Абсолютное позиционирование относительно .all_services_title */
+        left: 0;
+        /* Выравниваем псевдоэлемент слева */
+        bottom: -35px;
+        /* Помещаем псевдоэлемент внизу */
+        width: 100%;
+        /* Задаем ширину псевдоэлемента */
+        height: 1px;
+        /* Задаем высоту псевдоэлемента, это будет толщина линии */
+        background-color: #EAEAEA;
+        /* Цвет линии, соответствующий цвету текста */
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+
+    .card_img_block {
+        width: 470px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        border-radius: 7px;
+        border: 1.5px solid #ABABAB;
+        transition: all 0.2s;
+        margin-bottom: 14px;
+    }
+
+    .card_img {
+        max-width: 100%;
+        width: 100%;
+        height: 150%;
+        background-size: cover;
+        box-sizing: border-box;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+
+    .card_inner_title {
+        margin-left: 14px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 14px;
+    }
+
+    .card_inner_dec {
+        margin-left: 14px;
+        font-weight: 300;
+        /* font-family: 'GilroyRegular'; */
+        font-size: 18px;
+        color: #CDCDCD;
+        width: 440px;
+    }
