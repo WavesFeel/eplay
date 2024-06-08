@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function getPageType() {
     const path = window.location.pathname;
-    if (path === '/' || path.includes('index.html') || path === '/Restaurant/') {
+    if (path === '/' || path.includes('index.html') || path === '/eplay/') {
         return 'index';
     } else if (path.includes('Menu.html')) {
         return 'menu';
